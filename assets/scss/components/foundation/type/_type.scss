@@ -139,3 +139,8 @@ h6 {
 .definitionList-value {
   margin: 0;
 }
+
+// Override default paragraph bottom margin
+p {
+  margin-bottom: 0;
+}

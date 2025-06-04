@@ -7,7 +7,17 @@
                        href="{{url}}"
                        {{#if @last}}aria-current="page"{{/if}}
                     >
-                        <span style="-webkit-box-orient: vertical;">{{name}}</span>
+                        <span style="-webkit-box-orient: vertical;">
+                            {{#eq name 'Your Cart'}}
+                                {{lang 'breadcrumbs.cart'}}
+                            {{else}}
+                                {{#eq name 'Cart'}}
+                                    {{lang 'breadcrumbs.cart'}}
+                                {{else}}
+                                    {{name}}
+                                {{/eq}}
+                            {{/eq}}
+                        </span>
                     </a>
                 </li>
             {{/each}}

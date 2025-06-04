@@ -16,6 +16,10 @@
   "home": {
     "heading": "Home"
   },
+  "breadcrumbs": {
+    "home": "Home",
+    "cart": "Your Basket"
+  },
   "blog": {
     "recent_posts": "Recent Posts",
     "label": "Blog",
@@ -45,6 +49,8 @@
     "title": "Checkout"
   },
   "cart": {
+    "title": "Your Basket",
+    "heading": "Your Basket",
     "nav_aria_label": "Basket with 0 items",
     "continue_shopping": "Click here to continue shopping",
     "login_to_checkout": "Login to proceed to checkout",
